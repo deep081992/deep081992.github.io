@@ -1,0 +1,29 @@
+.bg-teal{
+    background: darkslategray !important;
+}
+.text-teal{
+    color:  darkslategray !important;;
+}
+.c_image{
+    box-shadow: 0 0 5px darkslategray !important;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.t_img{
+    box-shadow: 0 0 10px #0c3a3a;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+.t_card{
+    box-shadow:0 0 10px #0c3a3a ;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background:#0c3a3a ;
+    color: whitesmoke;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover.fab{
+    color: white;
+    cursor: pointer;
+}
